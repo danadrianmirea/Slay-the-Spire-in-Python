@@ -1,5 +1,12 @@
 from enum import StrEnum, auto
 
+class PlayerClass(StrEnum):
+    IRONCLAD = 'Ironclad'
+    SILENT = 'Silent'
+    DEFECT = 'Defect'
+    WATCHER = 'Watcher'
+    ANY = 'Any'
+
 class CombatTier(StrEnum):
     NORMAL = 'Normal'
     ELITE = 'Elite'
@@ -40,7 +47,7 @@ class TargetType(StrEnum):
     NOTHING = 'Nothing'
     RANDOM = 'Random'
     SINGLE = 'Single'
-    YOURSELF = 'Yourself'
+    PLAYER = 'Yourself'
 
 class CardCategory(StrEnum):
     CARD = 'Card'
