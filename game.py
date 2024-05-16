@@ -1,7 +1,5 @@
 import math
 import random
-from copy import copy, deepcopy
-from functools import partial
 from time import sleep
 
 import game_map
